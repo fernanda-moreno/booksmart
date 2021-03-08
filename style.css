@@ -127,6 +127,15 @@ p {
 }
 
 @media only screen and (max-width: 60em) {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 34px;
+    }
+    .profile {
+      height: 200px;
+    }
     .main-pic {
       width: 300px !important;
       height: 300px !important;
@@ -187,7 +196,30 @@ p {
   }
 
   .video {
+    width: 22em;
+  }
+  .car {
     width: 20em;
+    height: 10em;
+    margin: auto;
+  }
+
+  .dolls {
+    width: 20em;
+    height: 12em;
+    margin: auto;
+  }
+  .dolls-tall {
+    width: 20em;
+    height: 30em;
+    margin: auto;
+  }
+
+  .social {
+    margin: auto;
+    margin-bottom: 1em;
+    width: 300px;
+    height: 150px;
   }
 }
 
