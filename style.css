@@ -107,7 +107,17 @@ p {
   font-size: 18px;
 }
 
-.main-pic {
+.main-pic{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 350px;
+  height: 500px;
+  margin: 3vh auto;
+  border-radius: 10px;
+}
+
+.cine-pic {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -126,6 +136,10 @@ p {
   margin: 3vh auto;
 }
 
+.palette {
+  margin-bottom: 1em;
+}
+
 @media only screen and (max-width: 60em) {
     h1 {
       font-size: 40px;
@@ -136,16 +150,35 @@ p {
     .profile {
       height: 200px;
     }
-    .main-pic {
+    .cine-pic {
       width: 300px !important;
       height: 300px !important;
       margin: auto;
       padding: 1em;
     }
 
+    .main-pic{
+      width: 250px;
+      height: 400px;
+    }
+
     .supporting-pic {
       width: 300px !important;
       height: 250px !important;
+      margin: auto;
+      padding: 1em;
+    }
+
+    .palette {
+      width: 300px !important;
+      height: 200px !important;
+      margin: auto;
+      padding: 1em;
+    }
+
+    .cine-supporting-pic {
+      width: 300px !important;
+      height: 200px !important;
       margin: auto;
       padding: 1em;
     }
