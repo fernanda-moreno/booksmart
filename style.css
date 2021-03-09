@@ -202,6 +202,10 @@ p {
   margin-top: 1.2em;
 }
 
+.social  {
+  margin-bottom: 2em;
+}
+
 @media only screen and (max-width: 60em) {
   .container {
     margin-left: 10px;
@@ -230,6 +234,10 @@ p {
 
   .video {
     width: 22em;
+  }
+  .pool {
+    width: 18em;
+    padding: 2em;
   }
   .car {
     width: 20em;
